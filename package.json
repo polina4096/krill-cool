@@ -1,0 +1,36 @@
+{
+  "name": "krill-cool",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "solid-js": "^1.9.5"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^4.13.2",
+    "@unocss/eslint-config": "^66.1.2",
+    "@unocss/eslint-plugin": "^66.1.2",
+    "@unocss/preset-icons": "^66.1.2",
+    "@unocss/preset-rem-to-px": "^66.1.2",
+    "@unocss/preset-web-fonts": "^66.1.2",
+    "@unocss/preset-wind3": "^66.1.2",
+    "@unocss/reset": "^66.1.2",
+    "@unocss/transformer-compile-class": "^66.1.2",
+    "@unocss/transformer-directives": "^66.1.2",
+    "browserslist": "^4.24.4",
+    "clsx": "^2.1.1",
+    "eslint": "^9.25.1",
+    "eslint-plugin-solid": "^0.14.5",
+    "lightningcss": "^1.29.1",
+    "typescript": "~5.8.3",
+    "unocss": "^66.1.2",
+    "vite": "^6.3.5",
+    "vite-plugin-solid": "^2.11.6"
+  }
+}
